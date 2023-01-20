@@ -1,4 +1,4 @@
-# **Assignment 3: httpserver**
+# **MultiThreaded HTTP Server**
 httpserver is a simple web server that allows for three basic http methods: GET, PUT, and APPEND. httpserver processes the requests and logs them to either a designated file or stdout. httpserver using multiple threads to speed up and handle multiple operations at once and also preserves atomicity and coherency.
 
 ### **Usage:**
