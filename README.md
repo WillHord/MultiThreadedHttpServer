@@ -20,3 +20,11 @@ httpserver uses one main data structure, a work queue
 
 #### **Queue:**
 The queue is used to store the requests that are waiting to be processed. The queue is implemented using a linked list of nodes that hold request data such as "connfd" and "requestState". This is used such that a request can be enqueued at any point and resumed later by a different thread.
+
+## Authors
+
+* **[Will Hord](https://github.com/WillHord)** 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
